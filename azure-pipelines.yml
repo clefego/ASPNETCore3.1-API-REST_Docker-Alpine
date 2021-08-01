@@ -20,7 +20,7 @@ steps:
 
 - task: Docker@2
   inputs:
-    containerRegistry: 'cleytonazuredevops|Docker Hub'
+    containerRegistry: 'cleytonazuredevops|Azure Conteiner Registry'
     repository: 'apicontagem-azuredevops'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
